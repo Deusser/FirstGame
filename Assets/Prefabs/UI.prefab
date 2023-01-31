@@ -134,7 +134,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 556057924154629849}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MenuScript, Assembly-CSharp
         m_MethodName: ChangeGame
         m_Mode: 2
@@ -238,7 +238,7 @@ GameObject:
   - component: {fileID: 556057924154629852}
   - component: {fileID: 556057924154629855}
   - component: {fileID: 556057924154629854}
-  - component: {fileID: 556057924154629849}
+  - component: {fileID: -7312071471581111287}
   - component: {fileID: 556057924154629848}
   m_Layer: 5
   m_Name: UI
@@ -329,7 +329,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &556057924154629849
+--- !u!114 &-7312071471581111287
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -338,11 +338,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 556057924154629851}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 948c39fac51b61046981cbedca1e8389, type: 3}
+  m_Script: {fileID: 11500000, guid: e6b2373f95007ae4c89b2d359c9c9764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MainScreen: {fileID: 0}
-  LevelMenu: {fileID: 0}
+  Level: 0
 --- !u!82 &556057924154629848
 AudioSource:
   m_ObjectHideFlags: 0
